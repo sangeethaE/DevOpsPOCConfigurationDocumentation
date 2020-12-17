@@ -19,6 +19,7 @@ SonarQube required the java and Postgres installation
   #java -version
   
 ```
+ <image src="images/JavaVersionCheck.jpg"/>
  
 ### Postgres Installation:
 ```
@@ -33,6 +34,8 @@ Verify Postgres status using below command.
 ```
 #sudo systemctl status postgresql
 ```
+<image src="images/CheckPostgresStatus.jpg"/>
+
 Login as postgres User
 ```
 #sudo su – postgres
@@ -92,6 +95,8 @@ Verify Sonarqube status.
 ```
 #sudo systemctl status sonar
  ```
+ <image src="images/chkSonarStatus.jpg"/>
+ 
 Finally go to browser --> http://your_SonarQube_publicdns_name:9000/
 Login Credenials for Sonarqube:
 Username: admin

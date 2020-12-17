@@ -27,6 +27,7 @@ Once jenkins is successfully installed, you can access it in the browser by
 Login Credential for Jenkins:
 
 Username: admin
+
 Password: Find the Password at /var/lib/jenkins/secrets/initialAdminPassword 
 
 Add Jenkins users to sudoers  group:

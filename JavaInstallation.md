@@ -11,3 +11,4 @@ Verify Java version as shown below:
 ```
 java -version
 ```
+<image src="images/JavaVersionCheck.jpg"/>

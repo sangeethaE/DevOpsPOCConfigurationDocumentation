@@ -1,5 +1,5 @@
 ### Pre-Requisites :
-  Pre-Requisitesfor Configuring the POC
+  Pre-Requisites for Configuring the POC
   
     AWS EC2 Instances – two t2.medium and one t3.medium
 

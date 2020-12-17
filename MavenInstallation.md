@@ -12,4 +12,7 @@
 #source /etc/profile.d/mavenenv.sh
 ```
 Verify Maven version:
+
+#mvn --version
+
 <image src="images/mavenVersionCheck.jpg"/>

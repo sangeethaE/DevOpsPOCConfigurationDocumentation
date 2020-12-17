@@ -41,11 +41,15 @@ Verify Nexus status as shown below:
 <image src="images/VerifyNexusStatus.jpg"/>
 
 Once Nexus is successfully installed, you can access it in the browser by 
-```URL - http://public_dns_name:8081
+
+```
+URL - http://public_dns_name:8081
 ```
 
 Login Credentials for Nexus: 
+
 ```
 Username: admin
 Password: admin123
+
 ```

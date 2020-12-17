@@ -1,6 +1,6 @@
-### MiniKube Installation Steps
+## MiniKube Installation Steps
 
-## Login to t3.medium instance as ubuntu user and follow below steps to install the miniqube
+Login to t3.medium instance as ubuntu user and follow below steps to install the miniqube
 Download the latest release with the command
       
 ```
@@ -19,13 +19,13 @@ Download the latest release with the command
   ```
    $kubectl version --client
    ```
-## Docker install
+ Docker install
 
 ```
 $sudo apt-get update -y &&  sudo apt-get install -y docker.io
 $sudo docker version
 ```
-## Minikube install
+Minikube install
 ```
 	$curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 
 	$chmod +x minikube 

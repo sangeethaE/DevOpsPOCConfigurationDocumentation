@@ -28,11 +28,17 @@ SonarQube required the java and Postgres installation
 #sudo apt-get -y install postgresql postgresql-contrib
 #sudo systemctl start postgresql
 #sudo systemctl enable postgresql
-Verify Postgres status.
+```
+Verify Postgres status using below command.
+```
 #sudo systemctl status postgresql
- 
+```
+Login as postgres User
+```
 #sudo su – postgres
+```
 Create user sonar:
+```
 #psql
 postgres=#ALTER USER sonar WITH ENCRYPTED password 'password';
 postgres=#CREATE DATABASE sonar OWNER sonar;
@@ -46,14 +52,22 @@ postgres=#\q
 #sudo unzip sonarqube-6.4.zip -d /opt
 #sudo mv /opt/sonarqube-6.4 /opt/sonarqube -v
 #sudo vi /opt/sonarqube/conf/sonar.properties
+```
 Uncomment the below lines by removing # and add values highlighted yellow
+```
 sonar.jdbc.username=sonar
 sonar.jdbc.password=password
+```
 Next, uncomment the below line, removing #
+```
 sonar.jdbc.url=jdbc:postgresql://localhost/sonar
+```
 Press escape, and enter :wq! to come out of the above screen.
+```
 #sudo vi /etc/systemd/system/sonar.service
+```
 add the below code in yellow color to the /etc/systemd/system/sonar.service file
+```
 [Unit]
 Description=SonarQube service
 After=syslog.target network.target
@@ -73,11 +87,12 @@ WantedBy=multi-user.target
 #sudo systemctl enable sonar
 #sudo systemctl start sonar
 #sudo systemctl status sonar
+```
 Verify Sonarqube status.
+```
 #sudo systemctl status sonar
- 
-Now to go to browser --> http://your_SonarQube_publicdns_name:9000/
+ ```
+Finally go to browser --> http://your_SonarQube_publicdns_name:9000/
 Login Credenials for Sonarqube:
 Username: admin
 Password: admin
-```

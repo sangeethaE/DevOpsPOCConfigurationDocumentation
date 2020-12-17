@@ -1,14 +1,15 @@
-Sonar Installation(t2. Medium):
+Sonar Instllation Steps:
+
 Login to the t2. medium instance as root user and follow below steps to install the SonarQube.
 
 SonarQube required the java and Postgres installation
 Java Installation:
-#sudo add-apt-repository ppa:openjdk-r/ppa 
-#sudo apt-get update -y
-#sudo apt-get install openjdk-8-jdk
-#sudo update-alternatives --config java
-Verify Java version
-#java -version
+  #sudo add-apt-repository ppa:openjdk-r/ppa 
+  #sudo apt-get update -y
+  #sudo apt-get install openjdk-8-jdk
+  #sudo update-alternatives --config java
+  Verify Java version
+  #java -version
  
 Postgres Installation:
 #sudo apt-get update

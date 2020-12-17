@@ -8,7 +8,7 @@
 #sudo adduser nexus
 ```
 Provide some password may be as admin, but do remember.
-Keep entering enter for all other values and press y to confirm the entries.
+Keep pressing enter for all other values and press y to confirm the entries.
 ```
 #sudo chown -R nexus:nexus /opt/nexus
 #sudo chown -R nexus:nexus /opt/sonatype-work

@@ -3,15 +3,18 @@
 Login to the t2. medium instance as root user and follow below steps to install the SonarQube.
 
 SonarQube required the java and Postgres installation
-Java Installation:
+
+## Java Installation:
+```Java Installation:
   #sudo add-apt-repository ppa:openjdk-r/ppa 
   #sudo apt-get update -y
   #sudo apt-get install openjdk-8-jdk
   #sudo update-alternatives --config java
   Verify Java version
   #java -version
+```
  
-Postgres Installation:
+## Postgres Installation:
 #sudo apt-get update
 #sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
 #sudo wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add –
@@ -28,7 +31,7 @@ postgres=#ALTER USER sonar WITH ENCRYPTED password 'password';
 postgres=#CREATE DATABASE sonar OWNER sonar;
 postgres=#\q
 #exit
-SonarQube Installation:
+## SonarQube Installation:
 #sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.4.zip
 #sudo apt-get -y install unzip
 #sudo unzip sonarqube-6.4.zip -d /opt

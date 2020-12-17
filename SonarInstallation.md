@@ -98,6 +98,9 @@ Verify Sonarqube status.
  <image src="images/chkSonarStatus.jpg"/>
  
 Finally go to browser --> http://your_SonarQube_publicdns_name:9000/
+
 Login Credenials for Sonarqube:
+
 Username: admin
+
 Password: admin

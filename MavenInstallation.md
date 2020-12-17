@@ -1,4 +1,4 @@
-### Note : - Apache Maven requires Java, As we have already installed the java in the previous step, So we are directly installing the Maven.
+### Note : - Apache Maven requires Java.It was installed in the Previous Step.
 ##Install Maven
 ```
 #cd /opt

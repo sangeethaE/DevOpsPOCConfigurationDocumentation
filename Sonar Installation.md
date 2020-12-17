@@ -1,4 +1,4 @@
-Sonar Instllation Steps:
+## Sonar Instllation Steps:
 
 Login to the t2. medium instance as root user and follow below steps to install the SonarQube.
 

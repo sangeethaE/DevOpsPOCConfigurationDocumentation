@@ -1,8 +1,8 @@
 ## DevopsPOC Configuration Steps 
 
-<a href="https://sangeethae.github.io/DevOpsPOCConfigurationDocumentation/Pre-Requisites">Pre-Requisites</a>
+<a href="https://sangeethae.github.io/DevOpsPOCConfigurationDocumentation/Pre-Requisites"><b>Pre-Requisites</b></a>
 
-<a href="https://sangeethae.github.io/DevOpsPOCConfigurationDocumentation/JavaInstallation">JavaInstallation</a>
+<a href="https://sangeethae.github.io/DevOpsPOCConfigurationDocumentation/JavaInstallation"><b>JavaInstallation</b></a>
 
 <a href="https://sangeethae.github.io/DevOpsPOCConfigurationDocumentation/MavenInstallation">MavenInstallation</a>
 
